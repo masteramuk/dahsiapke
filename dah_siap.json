@@ -1,0 +1,22 @@
+[
+  {
+    "id": "task-create-folder",
+    "title": "Create offline workspace",
+    "description": "Prepare the local folder and initial data files.",
+    "category": "Projects",
+    "priority": "Medium",
+    "important": false,
+    "status": "Done",
+    "time_spent_mins": 20,
+    "created_at": "2026-07-14T07:45:00.000Z",
+    "completed_at": "2026-07-14T10:00:00.000Z",
+    "expected_start_date": "2026-07-14",
+    "expected_completion_date": "2026-07-14",
+    "progress_percent": 100,
+    "parent_task_id": "task-dashboard-project",
+    "depends_on": [],
+    "reference_people": [
+      "Farah"
+    ]
+  }
+]

@@ -1,0 +1,43 @@
+[
+  {
+    "id": "task-security-review",
+    "title": "Review laptop security baseline",
+    "description": "Check OS updates, disk encryption, backups, and browser extensions.",
+    "category": "Security",
+    "priority": "High",
+    "important": true,
+    "status": "To Do",
+    "time_spent_mins": 30,
+    "created_at": "2026-07-14T08:00:00.000Z",
+    "completed_at": null,
+    "expected_start_date": "2026-07-15",
+    "expected_completion_date": "2026-07-18",
+    "progress_percent": 20,
+    "parent_task_id": null,
+    "depends_on": [],
+    "reference_people": [
+      "Aina",
+      "Kumar"
+    ]
+  },
+  {
+    "id": "task-plan-week",
+    "title": "Plan the week",
+    "description": "Choose the three outcomes that matter most this week.",
+    "category": "Management",
+    "priority": "High",
+    "important": true,
+    "status": "To Do",
+    "time_spent_mins": 15,
+    "created_at": "2026-07-14T08:30:00.000Z",
+    "completed_at": null,
+    "expected_start_date": "2026-07-14",
+    "expected_completion_date": "2026-07-15",
+    "progress_percent": 35,
+    "parent_task_id": null,
+    "depends_on": [],
+    "reference_people": [
+      "Aina"
+    ]
+  }
+]

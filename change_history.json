@@ -1,0 +1,239 @@
+[
+  {
+    "event_id": "c7b22731-97ed-42e2-bea7-32af0c87eba7",
+    "task_id": "df48b0bb-00db-46ef-b57d-2909aa4de9a3",
+    "task_title": "Testing",
+    "change_type": "task_created",
+    "changed_at": "2026-07-18T12:43:24.305Z",
+    "actor": "Local user",
+    "from_bucket": null,
+    "to_bucket": "bakul_kerja",
+    "changes": [
+      {
+        "field": "title",
+        "old_value": null,
+        "new_value": "Testing"
+      },
+      {
+        "field": "description",
+        "old_value": null,
+        "new_value": "Testing the project"
+      },
+      {
+        "field": "category",
+        "old_value": null,
+        "new_value": "Personal"
+      },
+      {
+        "field": "priority",
+        "old_value": null,
+        "new_value": "Low"
+      },
+      {
+        "field": "important",
+        "old_value": null,
+        "new_value": false
+      },
+      {
+        "field": "status",
+        "old_value": null,
+        "new_value": "To Do"
+      },
+      {
+        "field": "time_spent_mins",
+        "old_value": null,
+        "new_value": 0
+      },
+      {
+        "field": "expected_start_date",
+        "old_value": null,
+        "new_value": "2026-07-18"
+      },
+      {
+        "field": "progress_percent",
+        "old_value": null,
+        "new_value": 10
+      },
+      {
+        "field": "depends_on",
+        "old_value": null,
+        "new_value": []
+      },
+      {
+        "field": "reference_people",
+        "old_value": null,
+        "new_value": []
+      }
+    ]
+  },
+  {
+    "event_id": "846c1467-b7ed-4a4c-bb64-f68c2fb08d01",
+    "task_id": "df48b0bb-00db-46ef-b57d-2909aa4de9a3",
+    "task_title": "Testing",
+    "change_type": "task_updated",
+    "changed_at": "2026-07-18T12:43:34.314Z",
+    "actor": "Local user",
+    "from_bucket": "bakul_kerja",
+    "to_bucket": "tengah_buat",
+    "changes": [
+      {
+        "field": "status",
+        "old_value": "To Do",
+        "new_value": "In Progress"
+      }
+    ]
+  },
+  {
+    "event_id": "cb8a8039-5b3b-42c9-a34a-e4a4b2b6e867",
+    "task_id": "df48b0bb-00db-46ef-b57d-2909aa4de9a3",
+    "task_title": "Testing",
+    "change_type": "task_updated",
+    "changed_at": "2026-07-18T12:45:19.726Z",
+    "actor": "Local user",
+    "from_bucket": "tengah_buat",
+    "to_bucket": "tengah_buat",
+    "changes": [
+      {
+        "field": "progress_percent",
+        "old_value": 10,
+        "new_value": 20
+      }
+    ]
+  },
+  {
+    "event_id": "7d5326dd-22ba-43f9-ba90-de783cac9929",
+    "task_id": "c86735c3-c779-404f-8810-ebdc8fb68b15",
+    "task_title": "Review section",
+    "change_type": "task_created",
+    "changed_at": "2026-07-18T12:46:37.777Z",
+    "actor": "Local user",
+    "from_bucket": null,
+    "to_bucket": "tengah_buat",
+    "changes": [
+      {
+        "field": "title",
+        "old_value": null,
+        "new_value": "Review section"
+      },
+      {
+        "field": "description",
+        "old_value": null,
+        "new_value": "Done the review"
+      },
+      {
+        "field": "category",
+        "old_value": null,
+        "new_value": "Projects"
+      },
+      {
+        "field": "priority",
+        "old_value": null,
+        "new_value": "Low"
+      },
+      {
+        "field": "important",
+        "old_value": null,
+        "new_value": true
+      },
+      {
+        "field": "status",
+        "old_value": null,
+        "new_value": "Review"
+      },
+      {
+        "field": "time_spent_mins",
+        "old_value": null,
+        "new_value": 0
+      },
+      {
+        "field": "expected_start_date",
+        "old_value": null,
+        "new_value": "2026-07-17"
+      },
+      {
+        "field": "expected_completion_date",
+        "old_value": null,
+        "new_value": "2026-07-19"
+      },
+      {
+        "field": "progress_percent",
+        "old_value": null,
+        "new_value": 100
+      },
+      {
+        "field": "depends_on",
+        "old_value": null,
+        "new_value": []
+      },
+      {
+        "field": "reference_people",
+        "old_value": null,
+        "new_value": [
+          "Tester"
+        ]
+      }
+    ]
+  },
+  {
+    "event_id": "b8823ff0-d231-4ff5-a687-de9cabed3ea1",
+    "task_id": "c86735c3-c779-404f-8810-ebdc8fb68b15",
+    "task_title": "Review section",
+    "change_type": "task_updated",
+    "changed_at": "2026-07-18T12:47:00.601Z",
+    "actor": "Local user",
+    "from_bucket": "tengah_buat",
+    "to_bucket": "tengah_buat",
+    "changes": []
+  },
+  {
+    "event_id": "04f697fa-41d0-4b3d-b8c8-c092145b0be9",
+    "task_id": "task-security-review",
+    "task_title": "Review laptop security baseline",
+    "change_type": "task_updated",
+    "changed_at": "2026-07-18T12:47:18.788Z",
+    "actor": "Local user",
+    "from_bucket": "bakul_kerja",
+    "to_bucket": "fokus_kerja",
+    "changes": [
+      {
+        "field": "progress_percent",
+        "old_value": 10,
+        "new_value": 20
+      }
+    ]
+  },
+  {
+    "event_id": "6cbeaa9e-e703-42d1-9407-f9f92cf558ce",
+    "task_id": "task-dashboard-project",
+    "task_title": "Launch personal dashboard",
+    "change_type": "status_changed",
+    "changed_at": "2026-07-18T13:17:45.241Z",
+    "actor": "Local user",
+    "from_bucket": "bakul_kerja",
+    "to_bucket": "tengah_buat",
+    "changes": [
+      {
+        "field": "status",
+        "old_value": "To Do",
+        "new_value": "In Progress"
+      }
+    ]
+  },
+  {
+    "event_id": "e011ade7-d105-49f0-acaa-2e04b98c709f",
+    "task_id": "task-plan-week",
+    "task_title": "Plan the week",
+    "change_type": "task_updated",
+    "changed_at": "2026-07-18T13:18:04.040Z",
+    "actor": "Local user",
+    "from_bucket": "fokus_kerja",
+    "to_bucket": "fokus_kerja",
+    "changes": [
+      {
+        "field": "progress_percent",
+        "old_value": 20,
+        "new_value": 35
+      }
+    ]
+  }
+]
