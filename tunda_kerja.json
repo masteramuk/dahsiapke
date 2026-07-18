@@ -1,0 +1,22 @@
+[
+  {
+    "id": "task-custom-icons",
+    "title": "Explore custom icon set",
+    "description": "Optional visual polish after the core workflow is stable.",
+    "category": "Projects",
+    "priority": "Low",
+    "important": false,
+    "status": "To Do",
+    "time_spent_mins": 0,
+    "created_at": "2026-07-14T10:00:00.000Z",
+    "completed_at": null,
+    "expected_start_date": null,
+    "expected_completion_date": null,
+    "progress_percent": 0,
+    "parent_task_id": "task-dashboard-project",
+    "depends_on": [],
+    "reference_people": [
+      "Kumar"
+    ]
+  }
+]

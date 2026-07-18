@@ -1,0 +1,103 @@
+[
+  {
+    "id": "task-build-board",
+    "title": "Build Kanban interactions",
+    "description": "Implement filtering, time logging, and native drag and drop.",
+    "category": "Projects",
+    "priority": "High",
+    "important": true,
+    "status": "In Progress",
+    "time_spent_mins": 120,
+    "created_at": "2026-07-14T09:00:00.000Z",
+    "completed_at": null,
+    "expected_start_date": "2026-07-14",
+    "expected_completion_date": "2026-07-17",
+    "progress_percent": 55,
+    "parent_task_id": "task-dashboard-project",
+    "depends_on": [],
+    "reference_people": [
+      "Kumar",
+      "Farah"
+    ]
+  },
+  {
+    "id": "task-review-content",
+    "title": "Review dashboard wording",
+    "description": "Make labels concise, friendly, and locally natural.",
+    "category": "Projects",
+    "priority": "Medium",
+    "important": false,
+    "status": "Review",
+    "time_spent_mins": 45,
+    "created_at": "2026-07-14T09:30:00.000Z",
+    "completed_at": null,
+    "expected_start_date": "2026-07-17",
+    "expected_completion_date": "2026-07-19",
+    "progress_percent": 85,
+    "parent_task_id": "task-dashboard-project",
+    "depends_on": [
+      "task-build-board"
+    ],
+    "reference_people": [
+      "Aina"
+    ]
+  },
+  {
+    "id": "df48b0bb-00db-46ef-b57d-2909aa4de9a3",
+    "title": "Testing",
+    "description": "Testing the project",
+    "category": "Personal",
+    "priority": "Low",
+    "important": false,
+    "status": "In Progress",
+    "time_spent_mins": 0,
+    "created_at": "2026-07-18T12:43:24.304Z",
+    "completed_at": null,
+    "expected_start_date": "2026-07-18",
+    "expected_completion_date": null,
+    "progress_percent": 20,
+    "parent_task_id": null,
+    "depends_on": [],
+    "reference_people": []
+  },
+  {
+    "id": "c86735c3-c779-404f-8810-ebdc8fb68b15",
+    "title": "Review section",
+    "description": "Done the review",
+    "category": "Projects",
+    "priority": "Low",
+    "important": true,
+    "status": "Review",
+    "time_spent_mins": 0,
+    "created_at": "2026-07-18T12:46:37.777Z",
+    "completed_at": null,
+    "expected_start_date": "2026-07-17",
+    "expected_completion_date": "2026-07-19",
+    "progress_percent": 100,
+    "parent_task_id": null,
+    "depends_on": [],
+    "reference_people": [
+      "Tester"
+    ]
+  },
+  {
+    "id": "task-dashboard-project",
+    "title": "Launch personal dashboard",
+    "description": "Parent task for the dahsiapke offline dashboard work.",
+    "category": "Projects",
+    "priority": "High",
+    "important": true,
+    "status": "In Progress",
+    "time_spent_mins": 45,
+    "created_at": "2026-07-14T08:15:00.000Z",
+    "completed_at": null,
+    "expected_start_date": "2026-07-14",
+    "expected_completion_date": "2026-07-21",
+    "progress_percent": 25,
+    "parent_task_id": null,
+    "depends_on": [],
+    "reference_people": [
+      "Farah"
+    ]
+  }
+]
