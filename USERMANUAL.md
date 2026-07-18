@@ -151,7 +151,7 @@ Shows only the In Progress board.
 
 #### Done
 
-Shows only active Done work. Done cards are read-only.
+Shows only active Done work. Done cards are read-only, but each card provides **History**, **View**, and **Archive** actions.
 
 #### Work Cancel
 
@@ -240,6 +240,10 @@ Opens an active task for editing.
 #### View
 
 Opens a Done task in read-only mode.
+
+#### Archive
+
+Appears on active Done cards. Moves that completed task immediately into `archive_kerja.json`. The action is reversible through **Restore** on the Archive page and is recorded in Change History. Use **Save Changes** afterward to synchronize the JSON files.
 
 The task-details window still provides **Delete task** when permanent removal is required.
 
@@ -416,7 +420,7 @@ The table shows:
 
 ### Archive action
 
-Moves one active Done task into `archive_kerja.json` in memory.
+Moves one active Done task into `archive_kerja.json` in memory. The same action is available directly on every active Done card.
 
 ### Restore action
 

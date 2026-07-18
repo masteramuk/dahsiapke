@@ -29,13 +29,13 @@ An additional append-only audit dataset is used for change tracking:
 
 Every task contains the required fields: `id`, `title`, `description`, `category`, `priority`, `important`, `status`, `time_spent_mins`, and `created_at`. `completed_at`, `expected_start_date`, `expected_completion_date`, `progress_percent`, `parent_task_id`, `depends_on`, and `reference_people` enable archiving, scheduling, task families, searchable multi-task dependency paths, and key-contact context. Older Done files without `completed_at` remain compatible; completion is inferred from expected completion date and then creation date.
 
-The automatic archive policy runs after files are loaded. It always keeps the three most recently completed tasks in active Done and archives any other Done task whose `completed_at` is older than three calendar months. Manual archive and restore actions are available on the Archive page.
+The automatic archive policy runs after files are loaded. It always keeps the three most recently completed tasks in active Done and archives any other Done task whose `completed_at` is older than three calendar months. Every active Done card also has an **Archive** button; manual archive and restore actions remain available on the Archive page.
 
 ## Use
 
 1. Double-click `index.html`.
 2. The app first tries to read all eight adjacent JSON files. If the browser blocks this, click **Connect Data Folder**, select the project folder once, and approve read/write access.
-3. Use the dedicated **Dashboard**, **Work Board**, **Critical Path**, **Archive**, **Change History**, and **Help** pages. Edit active cards, drag work, filter the board, search large parent/dependency lists, and log time in 15-minute increments. Done cards are intentionally read-only.
+3. Use the dedicated **Dashboard**, **Work Board**, **Critical Path**, **Archive**, **Change History**, and **Help** pages. Edit active cards, drag work, filter the board, search large parent/dependency lists, and log time in 15-minute increments. Done cards are read-only but can be archived directly.
 4. Changes are safety-cached in IndexedDB while you work. Click **Save Changes** to write all eight JSON files together through the connected folder. If direct writing is unavailable, the app downloads one combined `dahsiapke_backup.json` instead.
 
 History begins when the history-enabled application records a new mutation. Changes made before this feature existed cannot be reconstructed. History entries are append-only in normal application use and record the actor as `Local user` because the application has no accounts.

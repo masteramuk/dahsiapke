@@ -150,6 +150,10 @@ Native browser drag and drop is most reliable with a mouse or trackpad. On a pho
 
 The automatic archive rule runs after datasets are loaded. It keeps the three most recently completed tasks in active Done and archives other Done tasks older than three calendar months. An older restored task may become eligible again during the next load.
 
+### Archive one Done task now
+
+Open **Work Board**, choose the **Done** view, and click **Archive** on the completed task card. The task moves to `archive_kerja.json`, remains available for **Restore** on the Archive page, and is recorded in Change History. Click **Save Changes** to synchronize the JSON files.
+
 ### I accidentally deleted a task
 
 Deletion is confirmed and then saved to the browser-local database. After **Save Changes** synchronizes the JSON files, recovery requires an older JSON backup or combined backup. Change History records the deletion but does not recreate the task automatically.
